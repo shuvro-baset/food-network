@@ -3,11 +3,13 @@ body {
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  /* font-family: "Bona Nova", serif; */
 }
+
+/* header part css start */
 .header-part {
   width: 100%;
-  height: 500px;
+  height: 450px;
+  padding-bottom: 50px;
 }
 .background-img {
   width: 100%;
@@ -44,6 +46,7 @@ nav ul li a {
   border: 1px solid black;
   border-radius: 3px;
   text-decoration: none;
+  font-family: "Bona Nova", serif;
 }
 a:hover {
   background: #fff;
@@ -73,8 +76,31 @@ a:hover {
 }
 .banner-part a {
   color: white;
+  font-family: "Bona Nova", serif;
   text-decoration: none;
   padding: 5px 8px;
   border-radius: 3px;
   background-image: linear-gradient(45deg, rgb(44, 7, 146), rgb(0, 0, 0));
 }
+.banner-part a:hover {
+  color: yellow;
+  padding: 6px;
+  border-radius: 3px;
+}
+/* header part css end*/
+
+/* about css start*/
+
+/* .about-half {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.about-half img {
+  width: 100%;
+}
+.about-part {
+  background-image: url(images/shapes/Frame\ 59.jpg);
+  background-repeat: no-repeat;
+} */
