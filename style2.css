@@ -148,3 +148,20 @@ a:hover {
   padding: 10px;
   border-radius: 10px;
 }
+
+.followers {
+  width: 100%;
+  height: 200px;
+}
+.followers-div {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+}
+.follower-card {
+  text-align: center;
+  width: 20%;
+  margin: 35px;
+  padding: 10px;
+  border-radius: 10px;
+}
