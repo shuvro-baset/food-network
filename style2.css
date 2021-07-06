@@ -8,8 +8,7 @@ body {
   background-repeat: no-repeat;
 }
 section {
-  height: 600px;
-  padding-bottom: 20px;
+  height: 550px;
 }
 
 .half-width {
@@ -90,24 +89,62 @@ a:hover {
 }
 
 .recipies {
-  width: 100%;
+  width: 80%;
   height: auto;
+  display: flex;
+  margin: 0 auto;
 }
-.recipies h1 {
+.my-recipies h2 {
   text-align: center;
-}
-.card {
-  width: 25%;
-  height: auto;
-  display: inline-flex;
-  margin-left: 30px;
-  padding: 0 30px;
-  border: 2px solid black;
-  border-radius: 10px;
+  padding: 0;
+  margin: 0;
 }
 .card img {
   width: 100%;
 }
 .card .title {
   position: relative;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 33%;
+  margin-left: 30px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.container p {
+  font-size: 14px;
+}
+.feedback {
+  width: 100%;
+  height: 300px;
+}
+.feedback h3 {
+  text-align: center;
+  margin: 0;
+}
+.feedback-div {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.feedback-card {
+  background: rgb(215, 232, 247);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  margin: 25px;
+  padding: 10px;
+  border-radius: 10px;
 }
